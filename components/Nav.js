@@ -24,17 +24,17 @@ const Nav = () => {
                     Home
                 </div>
                 </Link>
-                <Link href="/create-fund" passHref>
+                <Link href="/create-nft" passHref>
                 <div className="px-3 py-2 mr-4 text-white transition-colors duration-300 cursor-pointer hover:bg-orange-100 hover:text-orange-400 rounded-xl">
                     Create NFT
                 </div>
                 </Link>
-                <Link href="/your-funds" passHref>
+                <Link href="/your-nfts" passHref>
                 <div className="px-3 py-2 mr-4 text-white transition-colors duration-300 cursor-pointer hover:bg-orange-100 hover:text-orange-400 rounded-xl">
                     Your NFTs
                 </div>
                 </Link>
-                <Link href="/all-funds" passHref>
+                <Link href="/all-nfts" passHref>
                 <div className="px-3 py-2 mr-4 text-white transition-colors duration-300 cursor-pointer hover:bg-orange-100 hover:text-orange-400 rounded-xl">
                     All NFTs
                 </div>
@@ -75,17 +75,17 @@ const Nav = () => {
                     Home
                 </div>
                 </Link>
-                <Link href="/create-fund" passHref>
+                <Link href="/create-nft" passHref>
                 <div className="p-3 transition-colors duration-300 text-cw-orange-600 hover:text-orange-050 hover:bg-orange-200">
                     Create NFT
                 </div>
                 </Link>
-                <Link href="/your-funds" passHref>
+                <Link href="/your-nfts" passHref>
                 <div className="p-3 transition-colors duration-300 text-cw-orange-600 hover:text-orange-050 hover:bg-orange-200">
                     Your NFTs
                 </div>
                 </Link>
-                <Link href="/all-funds" passHref>
+                <Link href="/all-nfts" passHref>
                 <div className="p-3 transition-colors duration-300 text-cw-orange-600 hover:text-orange-050 hover:bg-orange-200">
                     All NFTs
                 </div>

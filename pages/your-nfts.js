@@ -35,6 +35,7 @@ export default function MyAssets() {
         // Get connection and chain Id
         const network = await provider.getNetwork()
         const chainId = network['chainId']
+        console.log(symbols)
         setSymbol(symbols[chainId])
 
         // Get Contract Address

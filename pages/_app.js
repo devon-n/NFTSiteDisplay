@@ -4,9 +4,9 @@ import Nav from '../components/Nav.js'
 import Meta from '../components/Meta.js'
 import { useState } from 'react'
 import { ethers } from 'ethers'
+import {nftaddresses, symbols } from '../config'
 
 function MyApp({ Component, pageProps }) {
-
 
   return (
   <div>
